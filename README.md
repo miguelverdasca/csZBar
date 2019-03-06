@@ -26,11 +26,12 @@ Arguments:
 
     ```javascript
     {
-        text_title: "OPTIONAL Title Text - default = 'Scan QR Code'", // Android only
+        text_title: "OPTIONAL Title Text - default = 'Scan QR Code'",   // Android only
         text_instructions: "OPTIONAL Instruction Text - default = 'Please point your camera at the QR code.'", // Android only
-        camera: "front" || "back" // defaults to "back"
-        flash: "on" || "off" || "auto" // defaults to "auto". See Quirks
-        drawSight: true || false //defaults to true, create a red sight/line in the center of the scanner view.
+        camera: "front" || "back"           // defaults to "back"
+        flash:     "on" || "off" || "auto"  // defaults to "auto". See Quirks
+        drawSight: true || false            //defaults to true, create a red sight/line in the center of the scanner view,
+        imageLogo: "OPTIONAL -> image in follow format: text in base64". // Android only
     }
     ```
 
