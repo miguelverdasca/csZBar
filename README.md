@@ -31,7 +31,7 @@ Arguments:
         camera: "front" || "back"           // defaults to "back"
         flash:     "on" || "off" || "auto"  // defaults to "auto". See Quirks
         drawSight: true || false            //defaults to true, create a red sight/line in the center of the scanner view,
-        imageLogo: "OPTIONAL -> image in follow format: text in base64. // Android only
+        imageLogo: "OPTIONAL -> image in follow format: text in base64". // Android only
     }
     ```
 
