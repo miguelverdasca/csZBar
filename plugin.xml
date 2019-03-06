@@ -39,9 +39,9 @@
         <config-file target="res/values/strings.xml" parent="/*">
             <string name="csZbarScannerTitle">Scan QR Code</string>
             <string name="csZbarScannerInstructions">Please point your camera at the QR code.</string>
-            <color name="csZbarScannerTextColor">#ffffff</color>
-            <color name="csZbarScannerTextBackground">#88000000</color>
-            <color name="csZbarScannerBackground">#000000</color>
+            <color name="csZbarScannerTextColor">#404040</color>
+            <color name="csZbarScannerTextBackground">#E5E5E5</color>
+            <color name="csZbarScannerBackground">#E5E5E5</color> 
         </config-file>
         <framework src="com.android.support:support-v4:23.1.0" />
         <resource-file src="android/res/layout/cszbarscanner.xml" target="res/layout/cszbarscanner.xml" />
@@ -63,6 +63,8 @@
         <source-file src="android/res/drawable/camera_flash.png" target-dir="res/drawable-mdpi"/>
         <source-file src="android/res/drawable/camera_flash.png" target-dir="res/drawable-xhdpi"/>
         <source-file src="android/res/drawable/camera_flash.png" target-dir="res/drawable-xxhdpi"/>
+		<source-file src="android/res/drawable/docdigitizer_scanner.jpg" target-dir="res/drawable"/>
+		<source-file src="android/res/drawable/docdigitizer_scanner_2.png" target-dir="res/drawable"/>
     </platform>
 
     <platform name="ios">
