@@ -81,11 +81,13 @@
         //UIView *infoButton = [[[[[self.scanReader.view.subviews objectAtIndex:2] subviews] objectAtIndex:0] subviews] objectAtIndex:infoButtonIndex];
         //[infoButton setHidden:YES];
 
+        
+        // MIKE MIKE INSERT COMMENT LINE IN LINES 87 and 90
         NSArray *viewArray = [[[[[[[[self.scanReader.view.subviews objectAtIndex:2] subviews] objectAtIndex:0] subviews] objectAtIndex:0] subviews] objectAtIndex:0] subviews];
-        if([viewArray count] > 0){
+        //if([viewArray count] > 0){
             UIView *infoButton = [[[[[[[[[self.scanReader.view.subviews objectAtIndex:2] subviews] objectAtIndex:0] subviews] objectAtIndex:0] subviews] objectAtIndex:0] subviews] objectAtIndex:infoButtonIndex];
             [infoButton setHidden:YES];
-        }
+        //}
 
         //UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem]; [button setTitle:@"Press Me" forState:UIControlStateNormal]; [button sizeToFit]; [self.view addSubview:button];
         CGRect screenRect = [[UIScreen mainScreen] bounds];
