@@ -37,8 +37,9 @@
     [self.view addSubview:button];
 }
 
+// MIKE MIKE Change return value :: YES -> NO
 - (BOOL)prefersStatusBarHidden {
-    return YES;
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning {
