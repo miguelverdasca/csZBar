@@ -58,6 +58,11 @@
     return NO;
 }
 
+// MIKE MIKE ADD THIS
+- (BOOL)showsZBarControls{
+    return NO;
+}
+
 - (void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation) fromInterfaceOrientation {
     // AlmaZBarReaderViewController.scanner.scanner.cameraOverlayView = poli
     // NSDictionary *params = (NSDictionary*) [command argumentAtIndex:0];
