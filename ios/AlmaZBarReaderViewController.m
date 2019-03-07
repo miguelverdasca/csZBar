@@ -37,9 +37,8 @@
     [self.view addSubview:button];
 }
 
-// MIKE MIKE Change return value :: YES -> NO
 - (BOOL)prefersStatusBarHidden {
-    return NO;
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,8 +53,9 @@
     [obj toggleflash];
 }
 
+// MIKE MIKE Change return value :: YES -> NO
 - (BOOL)shouldAutorotate{
-    return YES;
+    return NO;
 }
 
 - (void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation) fromInterfaceOrientation {
