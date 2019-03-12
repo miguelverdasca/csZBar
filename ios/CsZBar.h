@@ -8,7 +8,11 @@
 - (void)scan: (CDVInvokedUrlCommand*)command;
 - (void)toggleflash;
 
+@end
 
 
+@interface CsZBar : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
